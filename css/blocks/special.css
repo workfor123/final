@@ -1,0 +1,29 @@
+.special {
+  background-color: #fff;
+}
+
+.special__inner {
+  padding: 50px 20px;
+}
+
+.special__text {
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
+  line-height: 1.5;
+  font-weight: normal;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+@media screen and (max-width: 860px) {
+  .special__text {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 684px) {
+  .special__text {
+    font-size: 16px;
+  }
+}

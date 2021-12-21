@@ -1,0 +1,20 @@
+.reg {
+  margin-top: 70px;
+}
+
+.reg__about {
+  background-color: #fff;
+  border: 1px solid rgb(68, 0, 255);
+}
+
+.reg__about-title {
+  color: #000;
+}
+
+.reg__about-text {
+  color: #000;
+}
+
+/* .reg {
+  margin-top: 70px;
+} */
