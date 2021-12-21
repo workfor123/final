@@ -18,7 +18,7 @@
 
   <div class="attention">
     <div class="attention__inner">
-      <a class="attention__text" href="/">Click Here For Important Regulatory Developments Regarding BlockFi Interest Accounts.</a>
+      <a class="attention__text" href="./registration.html">Click here to get full access to all features of the site.</a>
     </div>
   </div>
 
@@ -34,7 +34,7 @@
               <a class="header__menu-link header__menu--active" href="/">
                 Home
               </a>
-              <a class="header__menu-link" href="/">
+              <a class="header__menu-link" href="./about.html">
                 About
               </a>
               <a class="header__menu-link" href="/">
@@ -102,23 +102,23 @@
           <form class="form" action="">
             <div class="form__wrapper">
               <div class="form__inner">
-                <input class="form-input" type="text" required>
+                <input class="form-input" id="firstName" name="firstName" type="text" required>
                 <label class="form-lable" for="">Name</label>
               </div>
               <div class="form__inner">
-                <input class="form-input" type="text" required>
+                <input class="form-input" id="lastName" name="lastName" type="text" required>
                 <label class="form-lable" for="">Surname</label>
               </div>
               <div class="form__inner">
-                <input class="form-input" type="text" required>
+                <input class="form-input" id="email" name="email" autocomplete="email" type="text" required>
                 <label class="form-lable" for="">Email</label>
               </div>
               <div class="form__inner">
-                <input class="form-input" type="text" required>
+                <input class="form-input no-arrow" id="phone" name="phone" pattern="[+]{44}[0-9]{11,14}" type="tel" required>
                 <label class="form-lable" for="">Phone</label>
               </div>
               <div class="form__checkbox">
-                <input class="form__checkbox-input" type="checkbox" name="" id="">
+                <input class="form__checkbox-input" type="checkbox" name="news">
                 <p>
                   I'd like to recieve news updates
                   and articles via email from Success 
@@ -143,5 +143,6 @@
     </div>
   </section>
 
+  <script src="./scripts/app.js"></script>
 </body>
 </html>

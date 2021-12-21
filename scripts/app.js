@@ -72,7 +72,7 @@ function retrieveFormValue(e) {
     }
     for(let key in exam) {
       if(key === 'location') {
-        console.log(exam[key])
+        values[key] = exam[key].city
       }
     }
   }

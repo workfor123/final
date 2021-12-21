@@ -1,0 +1,152 @@
+.privacy__background {
+  background: #f2faff;
+}
+
+.privacy {
+  display: flex;
+  align-items: center;
+
+  padding-top: 22px;
+  padding-bottom: 72px;
+}
+
+.privacy__head {
+  margin-right: 90px;
+}
+
+.privacy__title {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 49px;
+  letter-spacing: 1px;
+
+  color: #000000;
+
+  max-width: 160px;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #2400ff;
+}
+
+.privacy__text--head {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 32px;
+
+  color: #000000;
+
+  max-width: 790px;
+}
+
+.privacy__description {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.privacy__strong {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #000000;
+
+  opacity: 0.8;
+
+  display: block;
+  margin-bottom: 30px;
+}
+
+.privacy__text {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #000000;
+
+  opacity: 0.8;
+
+  margin-bottom: 30px;
+}
+
+.privacy__list {
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+
+.privacy__list--item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.privacy__list--text {
+  font-family: "Montserrat",sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #000000;
+
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 684px) {
+    .privacy {
+        display: block;
+        padding-bottom: 30px;
+    }
+
+    .privacy__head {
+        margin-right: 0;
+    }
+
+    .privacy__title {
+        margin: 0  auto 30px;
+    }
+
+    .privacy__text--head {
+        font-size: 18px;
+    }
+
+    .privacy__img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .privacy__strong {
+        font-weight: 500;
+        font-style: 18px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .privacy {
+        display: block;
+    }
+
+    .privacy__head {
+        margin-right: 0;
+    }
+
+    .privacy__title {
+        margin: 0  auto 30px;
+    }
+
+    .privacy__img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .privacy__strong {
+        font-weight: 500;
+        font-style: 18px;
+        text-align: center;
+    }
+}

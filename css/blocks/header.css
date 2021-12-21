@@ -80,16 +80,19 @@
 }
 
 @media screen and (max-width: 684px) {
-  .header__links {
+  /* .header__links {
+    display: none;
+  } */
+  .header__exclusive {
     display: none;
   }
   .header {
-    top: 64px;
+    top: 44px;
   }
 }
 
-@media screen and (max-width: 407px) {
+@media screen and (max-width: 416px) {
   .header {
-    top: 84px;
+    top: 64px;
   }
 }

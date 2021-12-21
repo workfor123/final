@@ -37,6 +37,10 @@
   line-height: 1.5;
 }
 
+.footer__img {
+  max-width: 300px;
+}
+
 @media screen and (max-width: 1024px) {
   .team__media-img {
     max-width: 400px;
@@ -56,3 +60,10 @@
     min-width: 100%;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .team__media-img {
+    max-width: 250px;
+  }  
+}
+
